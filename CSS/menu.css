@@ -1,0 +1,29 @@
+.menu{
+    max-width: var(--width);
+    margin: 2rem 0 2rem auto;
+    background-color: var(--background-green);
+    color: var(--color-white);
+}
+
+.links-menu a{
+    display: flex;
+    align-items: center;
+    padding: 21px;
+    gap: 5px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #ffff;
+    font-weight: bold;
+}
+
+.lista-menu{
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.links-menu a:hover{
+    color: #814813;
+    background-color: #ffff;
+    border-radius: 5px;
+}

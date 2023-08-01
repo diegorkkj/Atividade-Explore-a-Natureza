@@ -1,0 +1,13 @@
+.ctt p{
+    font-size: 18px;
+    color: #626262;
+    font-weight: 400;
+    line-height: 16px;
+    margin-bottom: 10px;
+}
+
+.contato-content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
