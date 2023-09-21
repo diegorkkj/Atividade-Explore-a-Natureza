@@ -1,6 +1,7 @@
-.natureza-section {
+.container {
     display: flex;
     gap: 42px;
+    min-height: 80vh;
 }
 
 .txt h2{
