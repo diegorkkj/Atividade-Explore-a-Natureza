@@ -28,9 +28,70 @@
     border-radius: 5px;
 }
 
+.toggle {
+    align-items: center;
+    gap: 0.5rem;
+    background-color: #494949;
+    padding: 0.625rem;
+    border-radius: 5px;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+    display: none;
+}
+
 @media screen and (max-width:768px){
     .container{
         flex-direction: column;
 }
+}
 
+@media screen and (max-width: 768px) {
+    .toggle {
+        display: flex;
+    }
+
+		.js-list{
+        display: none;
+    }
+}   
+
+@media screen and (max-width: 768px) {
+
+    .js-list{
+        display: none;
+        animation: fadeOut .3s forwards;
+    }
+
+    .toggle{
+        display: flex;
+    }
+
+
+    .js-list.active{
+        display: block;
+        position: absolute;
+        top: 69px;
+        left: 0;
+        width: 100%;
+        background-color: var(--background-green);
+        z-index: 100;
+        animation: slideDownMenu .5s forwards;
+    }
+
+    .toggle span.active{
+        animation: slideDownMenu .5s forwards;
+    }
+
+}
+
+@keyframes slideDownMenu {
+    from {
+        opacity: 0;
+        transform: translateX(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }

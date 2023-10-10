@@ -7,7 +7,7 @@
     <link rel="shortcut icon" href="./img/favicon/acacia.png" type="image/x-icon">
 
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/menu.css">
+    <link rel="stylesheet" href="./CSS/menu.css">
     <link rel="stylesheet" href="./css/global.css">
     <link rel="stylesheet" href="./css/home.css">
     <link rel="stylesheet" href="./CSS/faq.css">
@@ -22,29 +22,35 @@
 </head>
 <body>
     <nav class="menu">
-        <ul class="lista-menu">
-            <li class="links-menu">
+        <div class="toggle">
+            MENU
+            <span class="material-symbols-outlined">
+                menu
+            </span>
+        </div>
+        <ul class="menu-list js-list">
+            <li class="menu-link">
                 <a href="#">
-                    <span class="material-symbols-outlined">eco</span>
+                    <span class="material-symbols-outlined">water_drop</span>
                     NATUREZA
                 </a>
             </li>
-            <li class="links-menu">
+            <li class="menu-link">
                 <a href="#">
                     <span class="material-symbols-outlined">quiz</span>
                     FAQ
                 </a>
             </li>
-            <li class="links-menu">
+            <li class="menu-link">
                 <a href="#">
                     <span class="material-symbols-outlined">contact_support</span>
                     CONTATO
                 </a>
             </li>
-            <li class="links-menu">
+            <li class="menu-link">
                 <a href="#">
-                    <span class="material-symbols-outlined">account_circle</span>
-                    LOGIN
+                    <span class="material-symbols-outlined">code_blocks</span>
+                    DEV -> 💻
                 </a>
             </li>
         </ul>
@@ -223,5 +229,7 @@
     </footer>
 
     <script src="js/faq.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/menu.js"></script>
 </body>
 </html>
