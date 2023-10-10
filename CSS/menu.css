@@ -28,7 +28,8 @@
     border-radius: 5px;
 }
 
-@media screen and (max-width:882px){
+@media screen and (max-width:768px){
     .container{
         flex-direction: column;
-}}
+}
+}
