@@ -18,3 +18,13 @@
     line-height: 1.8rem;
     margin-bottom: 1rem;
 }
+
+.title-faq{
+    color: black;
+}
+
+@media screen and (max-width:768px){
+    .title-faq{
+        font-size: 48px;
+}
+}

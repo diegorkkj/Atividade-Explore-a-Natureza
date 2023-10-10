@@ -12,8 +12,15 @@
     gap: 40px;
 }
 
+.title-ctt{
+    color: black;
+}
+
 @media screen and (max-width:768px){
     iframe{
         width: 100%;
+}
+    .title-ctt{
+        font-size: 48px;
 }
 }
